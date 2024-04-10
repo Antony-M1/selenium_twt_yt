@@ -4,6 +4,7 @@ Its a demo project the reference taken from this [youtube video](https://www.you
 
 # Prerequisites
 * Python3.10+
+* [Chrom Driver](https://sites.google.com/chromium.org/driver/)
 
 # Local Setup
 This documents Help you to setup the local setup
