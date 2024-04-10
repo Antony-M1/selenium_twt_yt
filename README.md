@@ -21,5 +21,10 @@ or
 ```cmd
 python -m venv .venv
 ```
+### Step 2
+Install all the required packages
+```cmd
+pip install -r requirements.txt
+```
 </details>
 
