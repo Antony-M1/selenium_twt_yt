@@ -9,6 +9,7 @@ This documents Help you to setup the local setup
   <summary>Step By Step guide</summary>
 
 ### Step 1
+Create the `Virtual environment`
 ```cmd
 python3.10 -m venv .venv
 ```
