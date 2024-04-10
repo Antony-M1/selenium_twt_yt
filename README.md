@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 3
-Download Correct Version of `Chrome Driver` From [Here](https://googlechromelabs.github.io/chrome-for-testing/#stable)
+Download Correct Version of `Chrome Driver` From [Here](https://googlechromelabs.github.io/chrome-for-testing/#stable) and then extract the `.zip` file and you can find the `chromedriver.exe` file and move that file in that `root` directory.
 
 </details>
 
