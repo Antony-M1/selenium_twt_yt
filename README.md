@@ -13,9 +13,13 @@ This documents Help you to setup the local setup
   <summary>Step By Step guide</summary>
 
 ### Step 1
-Create the `Virtual environment`
+Create the `Virtual environment` use the `Python3.10+` Version
 ```cmd
 python3.10 -m venv .venv
+```
+or
+```cmd
+python -m venv .venv
 ```
 </details>
 
