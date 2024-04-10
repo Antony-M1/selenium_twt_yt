@@ -26,5 +26,9 @@ Install all the required packages
 ```cmd
 pip install -r requirements.txt
 ```
+
+### Step 3
+Download Correct Version of `Chrome Driver` From [Here](https://googlechromelabs.github.io/chrome-for-testing/#stable)
+
 </details>
 
