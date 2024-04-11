@@ -13,10 +13,16 @@ driver = webdriver.Chrome(service=service)
 
 driver.get("https://google.com")
 
+WebDriverWait(driver, 5).until(
+    EC.presence_of_element_located(By.CLASS_NAME, "gLFyf")
+) # After 5 Sec the element we can't able find the element means crash the program or go head for next move
+
+
 # Find the `Seatch Element`
 input_element = driver.find_element(By.CLASS_NAME, "gLFyf")
 input_element.clear() # Clear the field fiels instead of override
 input_element.send_keys("tech with tim" + Keys.ENTER)
+
 
 time.sleep(10)
 
