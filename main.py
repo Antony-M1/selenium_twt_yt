@@ -13,6 +13,7 @@ driver.get("https://google.com")
 
 # Find the `Seatch Element`
 input_element = driver.find_element(By.CLASS_NAME, "gLFyf")
+input_element.clear() # Clear the field fiels instead of override
 input_element.send_keys("tech with tim" + Keys.ENTER)
 
 time.sleep(10)
