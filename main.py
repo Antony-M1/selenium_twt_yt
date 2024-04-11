@@ -14,7 +14,7 @@ driver = webdriver.Chrome(service=service)
 driver.get("https://google.com")
 
 WebDriverWait(driver, 5).until(
-    EC.presence_of_element_located(By.CLASS_NAME, "gLFyf")
+    EC.presence_of_element_located((By.CLASS_NAME, "gLFyf"))
 ) # After 5 Sec the element we can't able find the element means crash the program or go head for next move
 
 
